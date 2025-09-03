@@ -1,2 +1,2 @@
-# starter
-Basic Starter Repository
+# Web Ring 
+Web Ring Project DES070
