@@ -24,6 +24,7 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+
 }
 
 main {
@@ -51,4 +52,18 @@ img{
   background-color: rgb(245, 195, 203);
   border-radius: 15px;
 }
+
+.image-row {
+  display: flex;          /* puts images side by side */
+  gap: 20px;              /* space between them */
+  justify-content: center; /* centers them on the page */
+}
+
+.image-row img {
+  width: 300px;   /* set the same size */
+  height: 300px;  /* keeps them uniform */
+  object-fit: cover; /* crops nicely without stretching */
+  border-radius: 10px; /* optional, rounded corners */
+}
+
 
