@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5501/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Reading Hobby</title>
+  
+  <link rel="stylesheet" href="./My Reading Hobby_files/style.css"></head><body><br>
+  
+
+
+  <br>
+
+
+
+  <header>
+    <h1>Welcome to My Reading World! 📚</h1>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5501/#about">About Me</a></li>
+        <li><a href="http://127.0.0.1:5501/#favorites">Favorite Books</a></li>
+        <li><a href="http://127.0.0.1:5501/#goals">Reading Goals</a></li>
+        <li><a href="http://127.0.0.1:5501/#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Cara Kelley and I am 21 years old. I am a senior at Lehigh studying Graphic Design and Marketing. In my web design class. we have been asked to create a web page regarding a hobby of ours. For my web page, I chose reading. I have loved reading since I was a kid. I enjoy everything from fantasy novels to historical biographies. But my favorite genres currently are realistic fiction and mystery. Books take me places I’ve never been and inspire my imagination.</p>
+    </section>
+
+    <section id="favorites">
+     <h2>My Favorite Books</h2>
+     <ul>
+       <li><strong>28 Summers</strong> by Ellen Hildebrand</li>
+       <p class="highlight">
+       Elin Hilderbrand’s 28 Summers follows Mallory Blessing, who begins a secret Labor Day weekend tradition with Jake McCloud after they meet in 1993. Despite Jake marrying Ursula de Gournsey, who later becomes a prominent presidential candidate, and Mallory raising her son alone, the two keep their yearly promise for nearly three decades. Each chapter moves through a different year, tying their love story to real-world events and changes in their personal lives. Their bond is deep and undeniable, but it comes with sacrifices, secrecy, and the strain of leading separate lives the rest of the year. When Mallory becomes gravely ill, the future of their long-kept tradition is brought into question, and both must confront what their relationship has meant.
+      </p>
+       <li><strong>Verity</strong> by Colleen Hoover</li>
+       <p class="highlight">
+       In Colleen Hoover's psychological thriller Verity, struggling writer Lowen Ashleigh accepts a job completing the book series of famous author Verity Crawford, who is now incapacitated after an accident. Lowen moves into the Crawford home and, while sorting through Verity's notes, finds an unfinished, disturbing autobiography. The manuscript details Verity's sinister actions, including her abusive jealousy and the truth behind her daughter's death. As Lowen falls for Verity's husband, Jeremy, she becomes entangled in the family's dark secrets and a chilling web of deception. The story concludes with a shocking twist that leaves the reader questioning who was truly telling the truth: the manuscript or a final, contradictory letter left by Verity. 
+       </p>
+       <li><strong>Daisy Jones &amp; The Six</strong> by Taylor Jenkins Reid</li>
+       <p class="highlight">
+       Daisy Jones &amp; The Six tells the story of a fictional 1970s rock band from their tumultuous rise to their equally dramatic and sudden fall. The book is formatted as a retrospective oral history, with the band members and their inner circle offering differing accounts of events surrounding their fame. The story primarily follows the creative and intensely complicated relationship between charismatic but troubled singers Daisy Jones and Billy Dunne, who are brought together to create a hugely successful album called Aurora. Their passionate connection and personal demons, including Billy's struggle with sobriety, become central to the band's dynamic. Amid the tensions, the group embarks on a sold-out world tour before breaking up suddenly at the height of their success. In the end, the memoir reveals that Billy and Daisy's romantic feelings for each other and a confrontation with Billy's wife Camila were the driving forces behind the band's shocking end. 
+       </p>
+       <li><strong>Chicken Soup for the Teenage Soul</strong> by Jack Canfield</li>
+       <p class="highlight">
+       Chicken Soup for the Teenage Soul is a collection of inspiring stories, essays, and poems written by and for teenagers. These relatable anecdotes cover the challenges and experiences of adolescence, such as friendship, family issues, love, loss, and self-discovery. The book aims to provide comfort and encouragement to young readers by showing they are not alone in their struggles. Through its heartfelt narratives, it fosters a sense of connection and helps teens navigate their formative years with resilience. The stories emphasize valuable lessons on personal growth, overcoming adversity, and the importance of hope. 
+       </p>
+     </ul>
+   </section>
+
+    <section id="goals">
+      <h2>Reading Goals</h2>
+      <p>This year, I aim to read 30 books. I'm tracking my progress and exploring new genres.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Want to chat about reading? Email me at <a href="mailto:cjk226@lehigh.edu">cjk226@lehigh.edu</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Reading Hobby</p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./My Reading Hobby_files/css2" rel="stylesheet"></body></html>
